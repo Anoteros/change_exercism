@@ -7,8 +7,12 @@ class Change
   end
 
   def generate(num)
-    @num = num
-    calculate_change
+    if num < 0
+      raise ArgumentError
+    else
+      @num = num
+      calculate_change
+    end
   end
 
   def calculate_change

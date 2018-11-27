@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b747f71a-ad04-4381-b6c4-51a90c3edcbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/change.rb" beforeDir="false" afterPath="$PROJECT_DIR$/change.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/change_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/change_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <SUITE FILE_PATH="coverage/change_exercism@Change_takes_two_numbers_and_returns_coinage__change_exercism.rcov" NAME="Change takes two numbers and returns coinage: change_exercism Coverage Results" MODIFIED="1543277467102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
     <SUITE FILE_PATH="coverage/change_exercism@Change_refuses_to_give_dollars_instead_of_change__change_exercism.rcov" NAME="Change refuses to give dollars instead of change: change_exercism Coverage Results" MODIFIED="1543277623271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
     <SUITE FILE_PATH="coverage/change_exercism@Change_takes_a_shit_ton_of_numbers__change_exercism.rcov" NAME="Change takes a shit ton of numbers: change_exercism Coverage Results" MODIFIED="1543277615255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
+    <SUITE FILE_PATH="coverage/change_exercism@Change_expects_a_positive_number__change_exercism.rcov" NAME="Change expects a positive number: change_exercism Coverage Results" MODIFIED="1543340370749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
     <SUITE FILE_PATH="coverage/change_exercism@making_change__change_exercism.rcov" NAME="making change: change_exercism Coverage Results" MODIFIED="1543272661207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
     <SUITE FILE_PATH="coverage/change_exercism@Run_spec__change_spec___change_exercism.rcov" NAME="Run spec 'change_spec': change_exercism Coverage Results" MODIFIED="1543278122607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
     <SUITE FILE_PATH="coverage/change_exercism@Change_takes_multiple_numbers_and_returns_coinage__change_exercism.rcov" NAME="Change takes multiple numbers and returns coinage: change_exercism Coverage Results" MODIFIED="1543276558407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="change_exercism" />
@@ -40,12 +42,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="37" />
-          <entry key="rb" value="1486" />
+          <entry key="rb" value="1728" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="1523" />
+          <entry key="Ruby" value="1765" />
         </counts>
       </usages-collector>
     </session>
@@ -57,8 +59,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/change.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -79,8 +81,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/change_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+                <state relative-caret-position="269">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +110,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="23" />
+    <option name="x" value="1979" />
+    <option name="y" value="160" />
     <option name="width" value="1379" />
     <option name="height" value="877" />
   </component>
@@ -172,7 +174,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'change_spec': change_exercism">
+  <component name="RunManager" selected="RSpec.Change expects a positive number: change_exercism">
+    <configuration name="Change expects a positive number: change_exercism" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="change_exercism" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/change_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Change expects a positive number" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Change refuses to give dollars instead of change: change_exercism" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="change_exercism" />
@@ -229,39 +264,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Change takes a shit ton of numbers" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Change takes multiple numbers and returns coinage: change_exercism" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="change_exercism" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/change_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Change takes multiple numbers and returns coinage" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -340,18 +342,18 @@
     </configuration>
     <list>
       <item itemvalue="RSpec.Run spec 'change_spec': change_exercism" />
-      <item itemvalue="RSpec.Change takes multiple numbers and returns coinage: change_exercism" />
       <item itemvalue="RSpec.Change takes a shit ton of numbers: change_exercism" />
       <item itemvalue="RSpec.Change takes two numbers and returns coinage: change_exercism" />
       <item itemvalue="RSpec.Change refuses to give dollars instead of change: change_exercism" />
+      <item itemvalue="RSpec.Change expects a positive number: change_exercism" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.Change expects a positive number: change_exercism" />
         <item itemvalue="RSpec.Run spec 'change_spec': change_exercism" />
         <item itemvalue="RSpec.Change refuses to give dollars instead of change: change_exercism" />
         <item itemvalue="RSpec.Change takes a shit ton of numbers: change_exercism" />
         <item itemvalue="RSpec.Change takes two numbers and returns coinage: change_exercism" />
-        <item itemvalue="RSpec.Change takes multiple numbers and returns coinage: change_exercism" />
       </list>
     </recent_temporary>
   </component>
@@ -366,29 +368,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543271728706</updated>
-      <workItem from="1543271730072" duration="5030000" />
+      <workItem from="1543271730072" duration="5753000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Change_takes_two_numbers_and_returns_coinage__change_exercism - 2018.11.26 at 16h 05m 37s.xml">
-      <configuration name="Change takes two numbers and returns coinage: change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Change_takes_two_numbers_and_returns_coinage__change_exercism - 2018.11.26 at 16h 05m 58s.xml">
-      <configuration name="Change takes two numbers and returns coinage: change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Change_takes_two_numbers_and_returns_coinage__change_exercism - 2018.11.26 at 16h 09m 36s.xml">
-      <configuration name="Change takes two numbers and returns coinage: change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Change_takes_two_numbers_and_returns_coinage__change_exercism - 2018.11.26 at 16h 10m 41s.xml">
-      <configuration name="Change takes two numbers and returns coinage: change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Change_takes_two_numbers_and_returns_coinage__change_exercism - 2018.11.26 at 16h 11m 07s.xml">
-      <configuration name="Change takes two numbers and returns coinage: change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'change_spec'__change_exercism - 2018.11.26 at 16h 11m 26s.xml">
-      <configuration name="Run spec 'change_spec': change_exercism" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="Change_takes_a_shit_ton_of_numbers__change_exercism - 2018.11.26 at 16h 12m 46s.xml">
       <configuration name="Change takes a shit ton of numbers: change_exercism" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -401,12 +385,30 @@
     <history-entry file="Run_spec_'change_spec'__change_exercism - 2018.11.26 at 16h 22m 03s.xml">
       <configuration name="Run spec 'change_spec': change_exercism" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 31m 46s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 32m 13s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 32m 54s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 33m 55s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 34m 33s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Change_expects_a_positive_number__change_exercism - 2018.11.27 at 09h 39m 31s.xml">
+      <configuration name="Change expects a positive number: change_exercism" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5030000" />
+    <option name="totallyTimeSpent" value="5753000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1379" height="877" extended-state="0" />
+    <frame x="1979" y="160" width="1379" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -444,17 +446,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_spec.rb">
+    <entry file="file://$PROJECT_DIR$/change.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change.rb">
+    <entry file="file://$PROJECT_DIR$/change_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="269">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

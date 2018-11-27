@@ -23,4 +23,8 @@ describe Change do
   it 'refuses to give dollars instead of change' do
     expect(@change.generate(998)).to eq([1, 1, 1, 10, 10, 25, 50, 100, 100, 100, 100, 100, 100, 100, 100, 100])
   end
+
+  it 'expects a positive number' do
+    expect{ @change.generate(-1) }.to raise_error(ArgumentError)
+  end
 end
