@@ -2,12 +2,12 @@ class Change
 
   def initialize
     @coinage = [1, 5, 10, 25, 50, 100]
+    @coinage.reverse!
     @exact_change = []
   end
 
   def generate(num)
     @num = num
-    @coinage.reverse!
     calculate_change
   end
 
